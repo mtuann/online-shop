@@ -5,6 +5,14 @@ import { sampleProducts } from "./Data";
 // Methods of this class are used to simulate calls to server.
 //
 class Api {
+
+  getDataSample() {
+    // doc du lieu tu csv -> tra ve JSON
+    
+
+  }
+
+
   getItemUsingID(id) {
     return new Promise((resolve, reject) => {
       setTimeout(() => {

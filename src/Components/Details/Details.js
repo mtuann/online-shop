@@ -7,6 +7,8 @@ import Api from "../../Api";
 import Item from "../Item/Item";
 import { connect } from "react-redux";
 import TextField from "@material-ui/core/TextField";
+import SimpleImageSlider from "react-simple-image-slider";
+
 
 class ConnectedDetails extends Component {
   constructor(props) {
@@ -57,6 +59,12 @@ class ConnectedDetails extends Component {
       return null;
     }
 
+
+    const images = this.state.item.imageUrls.map((itemUrl, index) => {
+       return {"url": itemUrl}
+    });
+    console.log(images)
+
     return (
       <div style={{ padding: 10 }}>
         <div
@@ -67,19 +75,16 @@ class ConnectedDetails extends Component {
           }}
         >
           {this.state.item.name}
+
         </div>
         <div style={{ display: "flex" }}>
-          <img
-            src={this.state.item.imageUrls[0]}
-            alt=""
-            width={250}
-            height={250}
-            style={{
-              border: "1px solid lightgray",
-              borderRadius: "5px",
-              objectFit: "cover",
-            }}
-          />
+      
+            <SimpleImageSlider
+                width={250}
+                height={250}
+                images={images}
+            />
+
           <div
             style={{
               flex: 1,
