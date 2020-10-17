@@ -13,219 +13,97 @@ const sampleProducts =  [
   },
   {
     "id": 2,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+    "name": "C\u1ee7 c\u1ea3i \u0111\u00e1ng iu",
+    "category": "C\u1ee7 c\u1ea3i \u0111\u00e1ng iu",
+    "price": 2,
+    "description": "C\u1ee7 c\u1ea3i \u0111\u00e1ng iu",
     "popular": true,
     "imageUrls": [
       "/Images/02_01.jpg",
-      "/Images/02_02.jpg"
+      "/Images/02_02.jpg",
+      "/Images/02_03.jpg",
+      "/Images/02_04.jpg"
     ]
   },
   {
     "id": 3,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+    "name": "Profile Pictures",
+    "category": "Profile Pictures",
+    "price": 2,
+    "description": NaN,
     "popular": true,
     "imageUrls": [
       "/Images/03_01.jpg",
-      "/Images/03_02.jpg"
+      "/Images/03_02.jpg",
+      "/Images/03_03.jpg",
+      "/Images/03_04.jpg",
+      "/Images/03_05.jpg"
     ]
   },
   {
     "id": 4,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+    "name": "A little piece of me",
+    "category": "A little piece of me",
+    "price": 2,
+    "description": "Life itself is the most wonderful fairy tale\u2764\ufe0f\n",
     "popular": true,
     "imageUrls": [
       "/Images/04_01.jpg",
-      "/Images/04_02.jpg"
+      "/Images/04_02.jpg",
+      "/Images/04_03.jpg",
+      "/Images/04_04.jpg",
+      "/Images/04_05.jpg",
+      "/Images/04_06.jpg",
+      "/Images/04_07.jpg",
+      "/Images/04_08.jpg"
     ]
   },
   {
     "id": 5,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+    "name": "With my friends",
+    "category": "With my friends",
+    "price": 2,
+    "description": NaN,
     "popular": true,
     "imageUrls": [
       "/Images/05_01.jpg",
-      "/Images/05_02.jpg"
+      "/Images/05_02.jpg",
+      "/Images/05_03.jpg",
+      "/Images/05_04.jpg",
+      "/Images/05_05.jpg"
     ]
   },
   {
     "id": 6,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+    "name": "Quy Nh\u01a1n - Ph\u00fa Y\u00ean",
+    "category": "Quy Nh\u01a1n - Ph\u00fa Y\u00ean",
+    "price": 2,
+    "description": NaN,
     "popular": true,
     "imageUrls": [
       "/Images/06_01.jpg",
-      "/Images/06_02.jpg"
+      "/Images/06_02.jpg",
+      "/Images/06_03.jpg",
+      "/Images/06_04.jpg",
+      "/Images/06_05.jpg",
+      "/Images/06_06.jpg",
+      "/Images/06_07.jpg",
+      "/Images/06_08.jpg"
     ]
   },
   {
     "id": 7,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
+    "name": "Mobile Uploads",
+    "category": "Mobile Uploads",
+    "price": 2,
+    "description": NaN,
     "popular": true,
     "imageUrls": [
       "/Images/07_01.jpg",
-      "/Images/07_02.jpg"
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/08_01.jpg",
-      "/Images/08_02.jpg"
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/09_01.jpg",
-      "/Images/09_02.jpg"
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/10_01.jpg",
-      "/Images/10_02.jpg"
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/11_01.jpg",
-      "/Images/11_02.jpg"
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/12_01.jpg",
-      "/Images/12_02.jpg"
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/13_01.jpg",
-      "/Images/13_02.jpg"
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/14_01.jpg",
-      "/Images/14_02.jpg"
-    ]
-  },
-  {
-    "id": 15,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/15_01.jpg",
-      "/Images/15_02.jpg"
-    ]
-  },
-  {
-    "id": 16,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/16_01.jpg",
-      "/Images/16_02.jpg"
-    ]
-  },
-  {
-    "id": 17,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/17_01.jpg",
-      "/Images/17_02.jpg"
-    ]
-  },
-  {
-    "id": 18,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/18_01.jpg",
-      "/Images/18_02.jpg"
-    ]
-  },
-  {
-    "id": 19,
-    "name": "Nike Air Presto",
-    "category": "Clothing and Shoes",
-    "price": 55,
-    "description": "The Nike Air Presto Women's Shoe delivers the same unrivaled fit and comfort that marked the 2000 debut of the original.",
-    "popular": true,
-    "imageUrls": [
-      "/Images/19_01.jpg",
-      "/Images/19_02.jpg"
+      "/Images/07_02.jpg",
+      "/Images/07_03.jpg",
+      "/Images/07_04.jpg"
     ]
   }
-] 
+]; 
 export {sampleProducts}

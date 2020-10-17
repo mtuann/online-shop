@@ -3,7 +3,7 @@ import json
 import os
 
 
-def convert(pathFile="./data_clothes.csv"):
+def convert(pathFile="./Sample-DATA-clothes - Test02.csv"):
 	results = []
 	df = pd.read_csv(pathFile)
 
@@ -14,9 +14,11 @@ def convert(pathFile="./data_clothes.csv"):
 		ulr_local = []
 
 		for idy, img in enumerate(imageUrls):
-			extension = img.split(".")[-1]
+			# extension = img.split(".")[-1]
+			extension = "jpg"
 			# print(f'{row["id"]:02}')
 			idI = row["id"]
+			# print(idI)
 
 			path_file = f"./../public/Images/{idI:02}_{idy + 1:02}.{extension}"
 			ulr_local.append(f"/Images/{idI:02}_{idy + 1:02}.{extension}")
@@ -24,7 +26,7 @@ def convert(pathFile="./data_clothes.csv"):
 			if os.path.isfile(path_file):
 				continue
 
-			# cmd = 'wget "{}" -O "{}"'.format(img, path_file)
+			cmd = 'wget "{}" -O "{}"'.format(img, path_file)
 
 			# print(cmd)
 			os.system(cmd)
@@ -35,7 +37,7 @@ def convert(pathFile="./data_clothes.csv"):
 
 		# break			
 
-	dataWrite = "const sampleProducts =  {} \n".format(json.dumps(df, indent=2)) + "export {sampleProducts}"
+	dataWrite = "const sampleProducts =  {}; \n".format(json.dumps(df, indent=2)) + "export {sampleProducts}"
 
 	with open("./data_clothes.js", "w") as fw:
 		fw.write(dataWrite)
