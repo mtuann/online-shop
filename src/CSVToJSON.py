@@ -3,7 +3,7 @@ import json
 import os
 
 
-def convert(pathFile="./Sample-DATA-clothes - Test02.csv"):
+def convert(pathFile="./data_clothes.csv"):
 	results = []
 	df = pd.read_csv(pathFile)
 
