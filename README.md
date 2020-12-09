@@ -18,13 +18,13 @@ this project mainly as a learning experience for myself.
 # How to use
 
 1. Clone the repository.
-   ```git clone --depth 1 https://github.com/mtuann/online-shop.git```.  
+   ```git clone https://github.com/mtuann/online-shop.git```.  
 
 2. ```cd``` into the project folder.
 3. ```npm install```
 4. ```npm audit fix --force```
 5. ```npm start```
 
-- if you have problem with "npm-error-code-elifecycle", try to clear current cache: "npm chace clean -- force" and then "npm install", "npm start" the project
+- if you have problem with "npm-error-code-elifecycle", try to clear current cache: "npm cache clean -- force" and then "npm install", "npm start" the project
  
 
